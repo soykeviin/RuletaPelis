@@ -3,7 +3,8 @@ import { movies, Movie } from '@/data/movies';
 import CineRoulette from '@/components/cine-roulette';
 import { CommentSection } from '@/components/comment-section';
 import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { HorizontalAd } from '@/components/ads/horizontal-ad';
+import { VerticalAd } from '@/components/ads/vertical-ad';
 
 function TopRecommendations() {
   const recommendedMovies = movies.slice(0, 10);
@@ -52,13 +53,34 @@ export default function Home() {
           </p>
         </div>
       </header>
-      <main className="flex-grow">
-        <CineRoulette movies={movies} />
-        <TopRecommendations />
-        <CommentSection />
-      </main>
+      
+      <div className="container mx-auto flex-grow">
+        <div className="grid grid-cols-12 gap-8">
+          <aside className="hidden lg:block lg:col-span-2">
+            <div className="sticky top-8">
+              <VerticalAd />
+            </div>
+          </aside>
+          
+          <main className="col-span-12 lg:col-span-8">
+            <CineRoulette movies={movies} />
+            <TopRecommendations />
+            <CommentSection />
+          </main>
+
+          <aside className="hidden lg:block lg:col-span-2">
+            <div className="sticky top-8">
+              <VerticalAd />
+            </div>
+          </aside>
+        </div>
+      </div>
+      
       <footer className="py-8 text-center text-muted-foreground/60">
-        <p>Diseñado para amantes del cine.</p>
+        <div className="container mx-auto">
+          <HorizontalAd />
+          <p className="mt-8">Diseñado para amantes del cine.</p>
+        </div>
       </footer>
     </div>
   );
