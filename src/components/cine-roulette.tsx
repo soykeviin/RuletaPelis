@@ -188,9 +188,6 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                     ></iframe>
-                     <div className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/40 transition-colors duration-300 pointer-events-none">
-                        <PlayIcon className="w-20 h-20 text-white/50" />
-                    </div>
                 </div>
                 <div>
                     <h4 className="font-bold text-xl mb-3 text-white">Disponible en</h4>
