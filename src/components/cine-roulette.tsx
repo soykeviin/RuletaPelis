@@ -133,7 +133,7 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
           </Card>
         </div>
         <div className="lg:col-span-2 flex flex-col items-center justify-center space-y-8">
-          <Card className={`w-full max-w-sm aspect-[2/3] relative overflow-hidden shadow-2xl transition-all duration-300 rounded-2xl bg-card/50 ${isSpinning ? 'shadow-primary/50 shadow-[0_0_55px_15px_var(--tw-shadow-color)]' : 'shadow-black/50'}`}>
+          <Card className={`w-full max-w-xs aspect-[2/3] relative overflow-hidden shadow-2xl transition-all duration-300 rounded-2xl bg-card/50 ${isSpinning ? 'shadow-primary/50 shadow-[0_0_55px_15px_var(--tw-shadow-color)]' : 'shadow-black/50'}`}>
              {currentMovieToDisplay ? (
                 <Image
                     src={currentMovieToDisplay.posterUrl}
@@ -156,7 +156,7 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
               )}
           </Card>
           <Button onClick={handleSpin} disabled={isSpinning || filteredMovies.length === 0} size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-xl py-8 px-14 rounded-full shadow-lg shadow-accent/30 transform hover:scale-105 transition-transform duration-200">
-            {isSpinning ? 'Girando...' : '¡Girar la Ruleta!'}
+            {isSpinning ? 'Girando...' : 'Girar'}
           </Button>
         </div>
       </div>

@@ -111,7 +111,7 @@ export const movies: Movie[] = [
   {
     id: 12,
     title: "La La Land",
-    posterUrl: "https://image.tmdb.org/t/p/original/uDO8zWDhfWwoFdpp0bUp1 அபI1.jpg",
+    posterUrl: "https://image.tmdb.org/t/p/original/uDO8zWDhfWwoFdpp0bUp1abI1.jpg",
     trailerUrl: "https://www.youtube.com/embed/0pdqf4P9MB8",
     genres: ["musical", "romance", "drama"],
     releaseYear: 2016,
