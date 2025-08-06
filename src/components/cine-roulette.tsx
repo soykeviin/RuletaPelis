@@ -40,7 +40,7 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
       const genreMatch = genre === 'all' || movie.genres.includes(genre);
       const eraMatch = era === 'all' ||
         (era === 'old' && movie.releaseYear < 2000) ||
-        (era === 'future' && movie.releaseYear === 2025);
+        (era === 'future' && movie.releaseYear >= 2025);
       return genreMatch && eraMatch;
     });
   }, [movies, genre, era]);
@@ -89,12 +89,13 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
   }
 
   const currentMovieToDisplay = isSpinning ? spinningMovie : (resultMovie || filteredMovies[0] || null);
+  const showFutureMoviesFilter = useMemo(() => movies.some(m => m.releaseYear >= 2025), [movies]);
 
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
         <div className="lg:col-span-1">
-          <Card className="p-6 bg-secondary/30 backdrop-blur-sm shadow-2xl rounded-2xl border-white/10">
+          <Card className="p-6 bg-card/60 backdrop-blur-sm shadow-2xl rounded-2xl border-white/10">
             <h3 className="text-2xl font-headline font-bold mb-6 text-white tracking-tight">Filtros</h3>
             <div className="space-y-6">
               <div>
@@ -120,10 +121,12 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
                     <RadioGroupItem value="old" id="era-old" className="border-white/40 h-5 w-5" />
                     <Label htmlFor="era-old" className='text-base'>Clásicas (antes del 2000)</Label>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <RadioGroupItem value="future" id="era-future" className="border-white/40 h-5 w-5" />
-                    <Label htmlFor="era-future" className='text-base'>Próximamente (2025)</Label>
-                  </div>
+                  {showFutureMoviesFilter && (
+                    <div className="flex items-center space-x-3">
+                      <RadioGroupItem value="future" id="era-future" className="border-white/40 h-5 w-5" />
+                      <Label htmlFor="era-future" className='text-base'>Próximamente (2025+)</Label>
+                    </div>
+                  )}
                 </RadioGroup>
               </div>
             </div>

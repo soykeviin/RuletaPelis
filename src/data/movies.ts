@@ -171,22 +171,4 @@ export const movies: Movie[] = [
     releaseYear: 2019,
     streamingOn: ["disney"],
   },
-  {
-    id: 19,
-    title: "Wicked",
-    posterUrl: "https://image.tmdb.org/t/p/original/pYRJW5fK2oADM43kA2f2yIe1J2f.jpg",
-    trailerUrl: "https://www.youtube.com/embed/F1dvX92d7_g",
-    genres: ["fantasía", "musical"],
-    releaseYear: 2025,
-    streamingOn: [],
-  },
-  {
-    id: 20,
-    title: "Superman",
-    posterUrl: "https://image.tmdb.org/t/p/original/c246Q1DPK2c2s1g5V2aaD9bse3r.jpg",
-    trailerUrl: "https://www.youtube.com/embed/1_y_r64H0wE",
-    genres: ["acción", "superhéroes", "ciencia ficción"],
-    releaseYear: 2025,
-    streamingOn: [],
-  }
 ];
