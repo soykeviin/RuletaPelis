@@ -164,13 +164,13 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
       {resultMovie && (
         <Dialog open={isResultOpen} onOpenChange={setIsResultOpen}>
           <DialogContent 
-            className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-0 p-0 bg-card border-white/10 rounded-2xl"
+            className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-0 p-0 bg-card border-white/10 rounded-2xl md:max-h-[90vh] max-h-screen h-screen md:h-auto overflow-y-auto"
             showCloseButtonOnMobile={true}
           >
-            <div className="relative aspect-[2/3] rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none overflow-hidden">
+            <div className="relative aspect-[2/3] md:aspect-auto rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none overflow-hidden">
               <Image src={resultMovie.posterUrl} alt={resultMovie.title} fill className="object-cover" />
             </div>
-            <div className="flex flex-col p-8">
+            <div className="flex flex-col p-8 bg-card">
                 <DialogHeader>
                     <DialogTitle className="font-headline text-4xl md:text-5xl text-primary mb-2 tracking-tighter">{resultMovie.title}</DialogTitle>
                     <DialogDescription className="space-x-2 text-white/60 text-base">

@@ -42,7 +42,7 @@ function TopRecommendations() {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-background bg-grid-zinc-900/40">
+    <div className="flex flex-col min-h-screen bg-background bg-grid-zinc-900/40 overflow-x-hidden">
       <header className="py-12">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-headline font-black text-white tracking-tighter uppercase">
