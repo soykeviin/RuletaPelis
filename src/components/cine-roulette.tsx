@@ -133,7 +133,7 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
           </Card>
         </div>
         <div className="lg:col-span-2 flex flex-col items-center justify-center space-y-8">
-          <Card className={`w-full max-w-xs aspect-[2/3] relative overflow-hidden shadow-2xl transition-all duration-300 rounded-2xl bg-card/50 ${isSpinning ? 'shadow-primary/50 shadow-[0_0_55px_15px_var(--tw-shadow-color)]' : 'shadow-black/50'}`}>
+          <Card className={`w-full max-w-[280px] aspect-[2/3] relative overflow-hidden shadow-2xl transition-all duration-300 rounded-2xl bg-card/50 ${isSpinning ? 'shadow-primary/50 shadow-[0_0_55px_15px_var(--tw-shadow-color)]' : 'shadow-black/50'}`}>
              {currentMovieToDisplay ? (
                 <Image
                     src={currentMovieToDisplay.posterUrl}
@@ -163,13 +163,16 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
 
       {resultMovie && (
         <Dialog open={isResultOpen} onOpenChange={setIsResultOpen}>
-          <DialogContent className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-0 p-0 bg-card border-white/10 rounded-2xl">
-            <div className="relative aspect-[2/3] md:rounded-l-2xl overflow-hidden">
+          <DialogContent 
+            className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-0 p-0 bg-card border-white/10 rounded-2xl"
+            showCloseButtonOnMobile={true}
+          >
+            <div className="relative aspect-[2/3] rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none overflow-hidden">
               <Image src={resultMovie.posterUrl} alt={resultMovie.title} fill className="object-cover" />
             </div>
             <div className="flex flex-col p-8">
                 <DialogHeader>
-                    <DialogTitle className="font-headline text-5xl text-primary mb-2 tracking-tighter">{resultMovie.title}</DialogTitle>
+                    <DialogTitle className="font-headline text-4xl md:text-5xl text-primary mb-2 tracking-tighter">{resultMovie.title}</DialogTitle>
                     <DialogDescription className="space-x-2 text-white/60 text-base">
                         <span>{resultMovie.releaseYear}</span>
                         <span>&bull;</span>
