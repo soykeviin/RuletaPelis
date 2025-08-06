@@ -21,10 +21,9 @@ function TopRecommendations() {
                 <Image
                   src={movie.posterUrl}
                   alt={`Póster de ${movie.title}`}
-                  width={300}
-                  height={450}
+                  width={400}
+                  height={600}
                   className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-105"
-                  data-ai-hint="movie poster"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
                 <div className="absolute bottom-0 left-0 p-4">

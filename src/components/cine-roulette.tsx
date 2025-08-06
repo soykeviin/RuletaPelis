@@ -138,7 +138,6 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
                     fill
                     className="object-cover"
                     priority
-                    data-ai-hint="movie poster"
                 />
              ) : (
                 <div className="w-full h-full bg-card/80 flex flex-col items-center justify-center text-center p-4 rounded-2xl">
@@ -163,7 +162,7 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
         <Dialog open={isResultOpen} onOpenChange={setIsResultOpen}>
           <DialogContent className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-0 p-0 bg-card border-white/10 rounded-2xl">
             <div className="relative aspect-[2/3] md:rounded-l-2xl overflow-hidden">
-              <Image src={resultMovie.posterUrl} alt={resultMovie.title} fill className="object-cover" data-ai-hint="movie poster"/>
+              <Image src={resultMovie.posterUrl} alt={resultMovie.title} fill className="object-cover" />
             </div>
             <div className="flex flex-col p-8">
                 <DialogHeader>
