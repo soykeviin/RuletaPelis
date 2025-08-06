@@ -124,7 +124,7 @@ export default function CineRoulette({ movies }: { movies: Movie[] }) {
                   {showFutureMoviesFilter && (
                     <div className="flex items-center space-x-3">
                       <RadioGroupItem value="future" id="era-future" className="border-white/40 h-5 w-5" />
-                      <Label htmlFor="era-future" className='text-base'>Próximamente (2025+)</Label>
+                      <Label htmlFor="era-future" className='text-base'>2025</Label>
                     </div>
                   )}
                 </RadioGroup>
