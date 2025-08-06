@@ -1,3 +1,4 @@
+
 export interface Movie {
   id: number;
   title: string;
@@ -12,7 +13,7 @@ export const movies: Movie[] = [
   {
     id: 1,
     title: "Dune: Part Two",
-    posterUrl: "https://image.tmdb.org/t/p/original/8b8R8l88Qje9dn9OE8soXRmfuSJ.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNzBiMTQ0YjMtZDRhMC00ZDU4LTk3MDMtNWQxOGMwMjQzYjc4XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/U2Qp5pL3ovA",
     genres: ["ciencia ficción", "aventura"],
     releaseYear: 2024,
@@ -21,7 +22,7 @@ export const movies: Movie[] = [
   {
     id: 2,
     title: "The Matrix",
-    posterUrl: "https://image.tmdb.org/t/p/original/f89Jxwttkms2trdbNBVGCQUDSrP.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNGE1YzI4NzMtZTUxNi00Y2I5LTg2MmQtODE0NThmYTFmMDk0XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/vKQi3bBA1y8",
     genres: ["ciencia ficción", "acción"],
     releaseYear: 1999,
@@ -39,7 +40,7 @@ export const movies: Movie[] = [
   {
     id: 4,
     title: "Inception",
-    posterUrl: "https://image.tmdb.org/t/p/original/oYuLEt3zVCKq27gApcjBsovLgaq.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/YoHD9XEInc0",
     genres: ["ciencia ficción", "acción", "thriller"],
     releaseYear: 2010,
@@ -75,7 +76,7 @@ export const movies: Movie[] = [
   {
     id: 8,
     title: "Spirited Away",
-    posterUrl: "https://image.tmdb.org/t/p/original/39wmItIW2asRooAcZXRiN2ksc9Q.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BM2E2YzcwMTQtNWRlMC00ZGZlLWJhZTEtMDU4ZGIzMWI0NzJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     trailerUrl: "https://www.youtube.com/embed/ByXuk9QqQkk",
     genres: ["animación", "fantasía"],
     releaseYear: 2001,
@@ -84,7 +85,7 @@ export const movies: Movie[] = [
   {
     id: 9,
     title: "The Grand Budapest Hotel",
-    posterUrl: "https://image.tmdb.org/t/p/original/eifGNj1EzB74s0T6pQCeAuhI4bD.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BOWU2ZjYxMDAtMmFiNS00NWY0LWFhYTQtZTVhODdlMTFhNTA0XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/1Fg5iWmQjwk",
     genres: ["comedia", "drama"],
     releaseYear: 2014,
@@ -435,7 +436,7 @@ export const movies: Movie[] = [
   {
     id: 48,
     title: "Mickey 17",
-    posterUrl: "https://image.tmdb.org/t/p/original/5S2dsT41zE3nSza6MAxP0s0vjCg.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZGQwYmEzMzktYzBmMy00NmVmLTkyYTUtOTYyZjliZDNhZGVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     trailerUrl: "https://www.youtube.com/embed/t9t_L9fH_r8",
     genres: ["ciencia ficción", "drama"],
     releaseYear: 2025,
