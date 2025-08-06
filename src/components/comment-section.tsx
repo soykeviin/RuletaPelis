@@ -18,21 +18,6 @@ interface Comment extends IFormInput {
   timestamp: Date
 }
 
-const initialComments: Comment[] = [
-  {
-    id: 1,
-    name: "Cinéfilo Anónimo",
-    comment: "¡Qué gran idea! Me ayudó a descubrir una joya de película que no conocía.",
-    timestamp: new Date("2024-08-05T10:00:00Z"),
-  },
-  {
-    id: 2,
-    name: "Maria G.",
-    comment: "La ruleta es muy divertida. La animación está genial.",
-    timestamp: new Date("2024-08-05T09:55:00Z"),
-  },
-]
-
 export function CommentSection() {
   const [comments, setComments] = useState<Comment[]>([])
   const [hasMounted, setHasMounted] = useState(false);
@@ -69,52 +54,62 @@ export function CommentSection() {
   }
 
   if (!hasMounted) {
-    return null; // or a loading skeleton
+    // Render a skeleton or null on the server to avoid hydration mismatch
+    return (
+        <section className="w-full max-w-4xl mx-auto py-12 px-4 md:px-6">
+            <h2 className="text-4xl font-headline font-black text-center mb-10 text-white tracking-tighter">Comentarios</h2>
+            <div className="space-y-6">
+                <div className="bg-secondary/30 p-4 rounded-xl h-24 animate-pulse"></div>
+                <div className="bg-secondary/30 p-4 rounded-xl h-24 animate-pulse"></div>
+            </div>
+        </section>
+    );
   }
 
   return (
-    <section className="w-full max-w-4xl mx-auto py-12 px-4 md:px-6">
-      <h2 className="text-3xl font-headline font-bold text-center mb-8 text-primary">Comentarios</h2>
-      <Card className="mb-8 bg-card/80 backdrop-blur-sm shadow-xl">
+    <section className="w-full max-w-4xl mx-auto py-16 px-4 md:px-6">
+      <h2 className="text-4xl font-headline font-black text-center mb-10 text-white tracking-tighter">Comentarios</h2>
+      <Card className="mb-10 bg-secondary/30 backdrop-blur-sm shadow-xl rounded-2xl border-white/10">
         <CardHeader>
-          <CardTitle className="font-headline">Deja tu opinión</CardTitle>
+          <CardTitle className="font-headline text-2xl text-white tracking-tight">Deja tu opinión</CardTitle>
         </CardHeader>
         <form onSubmit={handleSubmit(onSubmit)}>
           <CardContent className="space-y-4">
             <Input
               placeholder="Tu nombre"
               {...register("name", { required: "El nombre es obligatorio" })}
-              className="bg-background"
+              className="bg-black/30 border-white/20 h-12 text-base"
             />
             {errors.name && <p className="text-sm text-destructive">{errors.name.message}</p>}
             <Textarea
               placeholder="Escribe tu comentario aquí..."
               {...register("comment", { required: "El comentario no puede estar vacío" })}
-              className="bg-background"
+              className="bg-black/30 border-white/20 text-base"
+              rows={4}
             />
             {errors.comment && <p className="text-sm text-destructive">{errors.comment.message}</p>}
           </CardContent>
           <CardFooter>
-            <Button type="submit" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">Enviar Comentario</Button>
+            <Button type="submit" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold h-12 px-6 text-base">Enviar Comentario</Button>
           </CardFooter>
         </form>
       </Card>
 
       <div className="space-y-6">
         {comments.map((comment) => (
-          <Card key={comment.id} className="bg-card/60">
-            <CardContent className="p-4 flex items-start space-x-4">
-              <Avatar>
-                <AvatarFallback>{comment.name.charAt(0).toUpperCase()}</AvatarFallback>
+          <Card key={comment.id} className="bg-secondary/30 rounded-xl border-white/10">
+            <CardContent className="p-6 flex items-start space-x-4">
+              <Avatar className="h-12 w-12 border-2 border-primary">
+                <AvatarFallback className="bg-primary/50 text-primary-foreground text-xl font-bold">{comment.name.charAt(0).toUpperCase()}</AvatarFallback>
               </Avatar>
               <div className="flex-grow">
                 <div className="flex items-center justify-between">
-                  <p className="font-bold text-primary">{comment.name}</p>
-                  <p className="text-xs text-muted-foreground">
+                  <p className="font-bold text-primary text-lg">{comment.name}</p>
+                  <p className="text-sm text-muted-foreground">
                     {comment.timestamp.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })}
                   </p>
                 </div>
-                <p className="mt-1 text-foreground/90">{comment.comment}</p>
+                <p className="mt-2 text-foreground/90 text-base">{comment.comment}</p>
               </div>
             </CardContent>
           </Card>
