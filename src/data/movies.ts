@@ -31,7 +31,7 @@ export const movies: Movie[] = [
   {
     id: 3,
     title: "Pulp Fiction",
-    posterUrl: "https://image.tmdb.org/t/p/original/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/s7EdQ4FqbhY",
     genres: ["crimen", "drama"],
     releaseYear: 1994,
@@ -49,7 +49,7 @@ export const movies: Movie[] = [
   {
     id: 5,
     title: "The Super Mario Bros. Movie",
-    posterUrl: "https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BOTJhNzlmNDctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/TnGl01FkMMo",
     genres: ["animación", "comedia", "aventura"],
     releaseYear: 2023,
@@ -58,7 +58,7 @@ export const movies: Movie[] = [
   {
     id: 6,
     title: "Parasite",
-    posterUrl: "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/5xH0HfJHsaY",
     genres: ["thriller", "drama", "comedia"],
     releaseYear: 2019,
@@ -67,7 +67,7 @@ export const movies: Movie[] = [
   {
     id: 7,
     title: "Blade Runner 2049",
-    posterUrl: "https://image.tmdb.org/t/p/original/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/gCcx85zbxz4",
     genres: ["ciencia ficción", "thriller"],
     releaseYear: 2017,
@@ -76,7 +76,7 @@ export const movies: Movie[] = [
   {
     id: 8,
     title: "Spirited Away",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BM2E2YzcwMTQtNWRlMC00ZGZlLWJhZTEtMDU4ZGIzMWI0NzJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/ByXuk9QqQkk",
     genres: ["animación", "fantasía"],
     releaseYear: 2001,
@@ -85,7 +85,7 @@ export const movies: Movie[] = [
   {
     id: 9,
     title: "The Grand Budapest Hotel",
-    posterUrl: "https://m.media-amazon.com/images/M/MV5BOWU2ZjYxMDAtMmFiNS00NWY0LWFhYTQtZTVhODdlMTFhNTA0XkEyXkFqcGc@._V1_.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/1Fg5iWmQjwk",
     genres: ["comedia", "drama"],
     releaseYear: 2014,
@@ -94,7 +94,7 @@ export const movies: Movie[] = [
   {
     id: 10,
     title: "Mad Max: Fury Road",
-    posterUrl: "https://image.tmdb.org/t/p/original/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/hEJnMQG9ev8",
     genres: ["acción", "aventura", "ciencia ficción"],
     releaseYear: 2015,
@@ -103,7 +103,7 @@ export const movies: Movie[] = [
   {
     id: 11,
     title: "Oppenheimer",
-    posterUrl: "https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/uYPbbksJxIg",
     genres: ["drama", "historia", "biografía"],
     releaseYear: 2023,
@@ -112,7 +112,7 @@ export const movies: Movie[] = [
   {
     id: 12,
     title: "La La Land",
-    posterUrl: "https://image.tmdb.org/t/p/original/uDO8zWDhfWwoFdpp0bUp1abI1.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/0pdqf4P9MB8",
     genres: ["musical", "romance", "drama"],
     releaseYear: 2016,
@@ -121,7 +121,7 @@ export const movies: Movie[] = [
   {
     id: 13,
     title: "Gladiator",
-    posterUrl: "https://image.tmdb.org/t/p/original/ty8TGRBGvKMeb7xLNIbyJ7KAbBw.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/owK1qxDselE",
     genres: ["acción", "drama", "historia"],
     releaseYear: 2000,
@@ -130,7 +130,7 @@ export const movies: Movie[] = [
   {
     id: 14,
     title: "Toy Story",
-    posterUrl: "https://image.tmdb.org/t/p/original/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMDU2ZWMyZGUtYjllYy00OThmLTljZjEtM2U0ODE2YjM2NWJjXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/v-PjgYDrg70",
     genres: ["animación", "comedia", "familia"],
     releaseYear: 1995,
@@ -139,7 +139,7 @@ export const movies: Movie[] = [
   {
     id: 15,
     title: "The Thing",
-    posterUrl: "https://image.tmdb.org/t/p/original/tzb6eU1YQ0tE9iGZaj4K3vJ4F43.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/5ftmr17M-a4",
     genres: ["terror", "ciencia ficción"],
     releaseYear: 1982,
@@ -148,7 +148,7 @@ export const movies: Movie[] = [
   {
     id: 16,
     title: "Joker",
-    posterUrl: "https://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/zAGVQLHvwOY",
     genres: ["drama", "crimen", "thriller"],
     releaseYear: 2019,
@@ -157,7 +157,7 @@ export const movies: Movie[] = [
   {
     id: 17,
     title: "Back to the Future",
-    posterUrl: "https://image.tmdb.org/t/p/original/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/qvsgGtivCgs",
     genres: ["ciencia ficción", "comedia", "aventura"],
     releaseYear: 1985,
@@ -166,7 +166,7 @@ export const movies: Movie[] = [
   {
     id: 18,
     title: "Avengers: Endgame",
-    posterUrl: "https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/TcMBFSGVi1c",
     genres: ["acción", "aventura", "superhéroes"],
     releaseYear: 2019,
@@ -175,7 +175,7 @@ export const movies: Movie[] = [
   {
     id: 19,
     title: "Spider-Man: Across the Spider-Verse",
-    posterUrl: "https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/shW9i6k8cB0",
     genres: ["animación", "acción", "aventura"],
     releaseYear: 2023,
@@ -184,7 +184,7 @@ export const movies: Movie[] = [
   {
     id: 20,
     title: "Poor Things",
-    posterUrl: "https://image.tmdb.org/t/p/original/kCGlIMHnOm8MhmZe8BVdy9ka6UD.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhNTk3NGJlXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/R-trn6gPJtA",
     genres: ["drama", "ciencia ficción", "romance"],
     releaseYear: 2023,
@@ -193,7 +193,7 @@ export const movies: Movie[] = [
   {
     id: 21,
     title: "The Batman",
-    posterUrl: "https://image.tmdb.org/t/p/original/74xTEgt7R36Fpooo50r9T25onHQ.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/mqqft2x_Aa4",
     genres: ["acción", "crimen", "drama"],
     releaseYear: 2022,
@@ -202,7 +202,7 @@ export const movies: Movie[] = [
   {
     id: 22,
     title: "Everything Everywhere All at Once",
-    posterUrl: "https://image.tmdb.org/t/p/original/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/way6P_1p40A",
     genres: ["acción", "aventura", "ciencia ficción"],
     releaseYear: 2022,
@@ -211,7 +211,7 @@ export const movies: Movie[] = [
   {
     id: 23,
     title: "Barbie",
-    posterUrl: "https://image.tmdb.org/t/p/original/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNjU3N2M5YjUtZGU0MC00MjEwLTg5YjItZjI1ZGYxZjRkZDIzXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/pBk4NYhWNMM",
     genres: ["comedia", "fantasía", "aventura"],
     releaseYear: 2023,
@@ -220,7 +220,7 @@ export const movies: Movie[] = [
   {
     id: 24,
     title: "Top Gun: Maverick",
-    posterUrl: "https://image.tmdb.org/t/p/original/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmY2XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/qSqVVswa420",
     genres: ["acción", "drama"],
     releaseYear: 2022,
@@ -229,7 +229,7 @@ export const movies: Movie[] = [
   {
     id: 25,
     title: "No Time to Die",
-    posterUrl: "https://image.tmdb.org/t/p/original/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/BIhNsAtPbPI",
     genres: ["acción", "aventura", "thriller"],
     releaseYear: 2021,
@@ -238,7 +238,7 @@ export const movies: Movie[] = [
   {
     id: 26,
     title: "Soul",
-    posterUrl: "https://image.tmdb.org/t/p/original/zSuRX1VmT0P2_T2i53c3gaqGg02.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/xOsLIiBStEs",
     genres: ["animación", "familia", "fantasía"],
     releaseYear: 2020,
@@ -247,7 +247,7 @@ export const movies: Movie[] = [
   {
     id: 27,
     title: "The Father",
-    posterUrl: "https://image.tmdb.org/t/p/original/zTgjF51we0Qo3n2nJ0AmJ2NAYsF.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZGJhNWRiOWQtMjI4OS00ZjcxLTgwNjAtN2EzYjg1ODU5Zjc1XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/4TZb7YfK-JI",
     genres: ["drama"],
     releaseYear: 2020,
@@ -256,7 +256,7 @@ export const movies: Movie[] = [
   {
     id: 28,
     title: "Knives Out",
-    posterUrl: "https://image.tmdb.org/t/p/original/pThyQovXQrw2m0s9x82twY4mrJg.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/qG2nMY1Iuag",
     genres: ["misterio", "comedia", "crimen"],
     releaseYear: 2019,
@@ -265,7 +265,7 @@ export const movies: Movie[] = [
   {
     id: 29,
     title: "Get Out",
-    posterUrl: "https://image.tmdb.org/t/p/original/aSSQEC3YeuP6deC95p5W6cveIlo.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/sRfnevzM9kQ",
     genres: ["terror", "misterio", "thriller"],
     releaseYear: 2017,
@@ -274,7 +274,7 @@ export const movies: Movie[] = [
   {
     id: 30,
     title: "Arrival",
-    posterUrl: "https://image.tmdb.org/t/p/original/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/tFMo3UJ4B4g",
     genres: ["ciencia ficción", "drama"],
     releaseYear: 2016,
@@ -283,7 +283,7 @@ export const movies: Movie[] = [
   {
     id: 31,
     title: "Inside Out 2",
-    posterUrl: "https://image.tmdb.org/t/p/original/gMB8vgHu2lZfSgC3GvXl1EARDf.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYTc3Y2VkY2ItYTBiNC00NmM0LWI5MmMtYDBmMzY0ZjU3ZDE1XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/LEfAg_k_K-M",
     genres: ["animación", "familia", "drama"],
     releaseYear: 2024,
@@ -292,7 +292,7 @@ export const movies: Movie[] = [
   {
     id: 32,
     title: "Godzilla x Kong: The New Empire",
-    posterUrl: "https://image.tmdb.org/t/p/original/v4I1p6NBb2zmtGih7W1C1Cg5pT.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BODdkM2YwY2EtNDE1Mi00Y2MwLTg1YjgtNzJmN2EwNWE0ZTE4XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/qqrpMRDuPfc",
     genres: ["acción", "ciencia ficción"],
     releaseYear: 2024,
@@ -301,7 +301,7 @@ export const movies: Movie[] = [
   {
     id: 33,
     title: "Past Lives",
-    posterUrl: "https://image.tmdb.org/t/p/original/k3waq02Ah4vX8wkl3SgExd4Q2bb.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BOTZmMmY2MzctMjU2Yy00YjJlLTk1NjAtY2U4MmMxOWZkZWY4XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/kA244xEW69s",
     genres: ["drama", "romance"],
     releaseYear: 2023,
@@ -310,7 +310,7 @@ export const movies: Movie[] = [
   {
     id: 34,
     title: "Anatomy of a Fall",
-    posterUrl: "https://image.tmdb.org/t/p/original/kQs6ke1JS4WNwGi5gKkg2p2N2c6.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMDBiYmRkNjUtYjg2MS00N2Q5LWFlYjktY2M3MjI1YjI0NjQ5XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/fTrsp5BMloA",
     genres: ["drama", "thriller", "crimen"],
     releaseYear: 2023,
@@ -319,7 +319,7 @@ export const movies: Movie[] = [
   {
     id: 35,
     title: "The Holdovers",
-    posterUrl: "https://image.tmdb.org/t/p/original/bS4i5i26iA0gHnLgD2AkeaQhXNt.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNDM3MDQ4Y2EtNzA4My00ZGRhLThiYmUtMWM5MDIwODQ3M2ZlXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/AhKLpJmHhIg",
     genres: ["comedia", "drama"],
     releaseYear: 2023,
@@ -328,7 +328,7 @@ export const movies: Movie[] = [
   {
     id: 36,
     title: "Mission: Impossible - Dead Reckoning Part One",
-    posterUrl: "https://image.tmdb.org/t/p/original/NNxYkU70HPurnNCSiCjYUkE4C07.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYzFiZjc1YzctMDY3Zi00NGE5LTlmNWEtN2Q3OWFjYjY1NGM2XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/avz063tgE40",
     genres: ["acción", "thriller", "aventura"],
     releaseYear: 2023,
@@ -337,7 +337,7 @@ export const movies: Movie[] = [
   {
     id: 37,
     title: "John Wick: Chapter 4",
-    posterUrl: "https://image.tmdb.org/t/p/original/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/qEVUvrgClM4",
     genres: ["acción", "crimen", "thriller"],
     releaseYear: 2023,
@@ -346,7 +346,7 @@ export const movies: Movie[] = [
   {
     id: 38,
     title: "Avatar: The Way of Water",
-    posterUrl: "https://image.tmdb.org/t/p/original/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/d9MyW72ELq0",
     genres: ["ciencia ficción", "aventura", "acción"],
     releaseYear: 2022,
@@ -355,7 +355,7 @@ export const movies: Movie[] = [
   {
     id: 39,
     title: "Elvis",
-    posterUrl: "https://image.tmdb.org/t/p/original/ymYNHt0k7B7sH02C2iV1p0c01j.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BYzMzNTJjYmMtZTkxNS00MjI4LWI3YmQtOTQ4MDZjZDJlZjQyXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/wBDLRvjHVOY",
     genres: ["música", "drama", "historia"],
     releaseYear: 2022,
@@ -364,7 +364,7 @@ export const movies: Movie[] = [
   {
     id: 40,
     title: "The Power of the Dog",
-    posterUrl: "https://image.tmdb.org/t/p/original/kP2cO4Mhw3a2c5s6l3iM20C3i44.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZDE4ZmM0ODktY2U4Ny00Y2M2LTk4YjktY2Q5ODQ3YWZmODEwXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/LRDPo0CHrko",
     genres: ["drama", "western"],
     releaseYear: 2021,
@@ -373,7 +373,7 @@ export const movies: Movie[] = [
   {
     id: 41,
     title: "Drive",
-    posterUrl: "https://image.tmdb.org/t/p/original/602vevIURmpDfz6YgXL9s9i9yDb.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZjY5ZjQyMjMtMmEwOC00Nzc2LTllYTItMmU2MzJjNTg1NjY0XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/KBiOF3y1W0Y",
     genres: ["drama", "crimen", "thriller"],
     releaseYear: 2011,
@@ -382,7 +382,7 @@ export const movies: Movie[] = [
   {
     id: 42,
     title: "The Social Network",
-    posterUrl: "https://image.tmdb.org/t/p/original/n0ybibhJtQ5icDqNs2BT9LunFw5.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/lB95KLmpoif",
     genres: ["drama", "historia"],
     releaseYear: 2010,
@@ -391,7 +391,7 @@ export const movies: Movie[] = [
   {
     id: 43,
     title: "Interstellar",
-    posterUrl: "https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/zSWdZVtXT7E",
     genres: ["ciencia ficción", "aventura", "drama"],
     releaseYear: 2014,
@@ -400,7 +400,7 @@ export const movies: Movie[] = [
   {
     id: 44,
     title: "Whiplash",
-    posterUrl: "https://image.tmdb.org/t/p/original/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/7d_jQycdQGo",
     genres: ["drama", "música"],
     releaseYear: 2014,
@@ -409,7 +409,7 @@ export const movies: Movie[] = [
   {
     id: 45,
     title: "Captain America: The Winter Soldier",
-    posterUrl: "https://image.tmdb.org/t/p/original/5OD4MBDiI28m6t2v6W3hglXnQ8P.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMzA2NDY2ODUyM15BMl5BanBnXkFtZTgwNTc1MDI0MTE@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/tbayiSnSuq8",
     genres: ["acción", "aventura", "superhéroes"],
     releaseYear: 2014,
@@ -418,7 +418,7 @@ export const movies: Movie[] = [
   {
     id: 46,
     title: "The Wolf of Wall Street",
-    posterUrl: "https://image.tmdb.org/t/p/original/34AgNcQ2W2G5r0ZXlS4uSMStQe6.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/iszwuX1AK6A",
     genres: ["crimen", "comedia", "biografía"],
     releaseYear: 2013,
@@ -427,7 +427,7 @@ export const movies: Movie[] = [
   {
     id: 47,
     title: "A Quiet Place",
-    posterUrl: "https://image.tmdb.org/t/p/original/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/WR7cc5t7tv8",
     genres: ["terror", "thriller", "ciencia ficción"],
     releaseYear: 2018,
@@ -445,7 +445,7 @@ export const movies: Movie[] = [
   {
     id: 49,
     title: "Captain America: Brave New World",
-    posterUrl: "https://image.tmdb.org/t/p/original/g93sWjTC28IAn31OyvXy6dGkjL.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BY2U4YjBkNDUtMjA2OC00Y2E3LWE3NDQtMDU5YjI3NjgyODQzXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/FOo5iV4eTfA",
     genres: ["ciencia ficción", "acción", "superhéroes"],
     releaseYear: 2025,
@@ -454,7 +454,7 @@ export const movies: Movie[] = [
   {
     id: 50,
     title: "The Batman Part II",
-    posterUrl: "https://image.tmdb.org/t/p/original/1u7c9gDk5eW3h5bBw6tHgxXjLJW.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BNmY4ZGFjYjktY2FiYy00MjUyLTljMWUtYTNlNGYxYjhmYmI2XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/mqqft2x_Aa4",
     genres: ["acción", "crimen", "drama"],
     releaseYear: 2025,
@@ -463,7 +463,7 @@ export const movies: Movie[] = [
   {
     id: 51,
     title: "Avatar 3",
-    posterUrl: "https://image.tmdb.org/t/p/original/sOUePzOAhYPSsAgyd2Yv52sB9s0.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZWZjYjYyODItYmQyNC00M2VmLTkwYmEtM2NkYTJiYWQ5M2ZlXkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/d9MyW72ELq0",
     genres: ["ciencia ficción", "aventura", "acción"],
     releaseYear: 2025,
@@ -472,7 +472,7 @@ export const movies: Movie[] = [
   {
     id: 52,
     title: "Gladiator 2",
-    posterUrl: "https://image.tmdb.org/t/p/original/3Wfe3YTM1h203umI426Y5w274aE.jpg",
+    posterUrl: "https://m.media-amazon.com/images/M/MV5BZmIyYTY2OTItM2Y3OC00NGRmLWIwOTYtNjA2YjY2Y2MwM2Y4XkEyXkFqcGc@._V1_.jpg",
     trailerUrl: "https://www.youtube.com/embed/owK1qxDselE",
     genres: ["acción", "drama", "historia"],
     releaseYear: 2025,
