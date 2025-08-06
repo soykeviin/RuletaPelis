@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -18,21 +18,43 @@ interface Comment extends IFormInput {
   timestamp: Date
 }
 
+const initialComments: Comment[] = [
+  {
+    id: 1,
+    name: "Cinéfilo Anónimo",
+    comment: "¡Qué gran idea! Me ayudó a descubrir una joya de película que no conocía.",
+    timestamp: new Date("2024-08-05T10:00:00Z"),
+  },
+  {
+    id: 2,
+    name: "Maria G.",
+    comment: "La ruleta es muy divertida. La animación está genial.",
+    timestamp: new Date("2024-08-05T09:55:00Z"),
+  },
+]
+
 export function CommentSection() {
-  const [comments, setComments] = useState<Comment[]>([
-    {
-      id: 1,
-      name: "Cinéfilo Anónimo",
-      comment: "¡Qué gran idea! Me ayudó a descubrir una joya de película que no conocía.",
-      timestamp: new Date(),
-    },
-    {
-      id: 2,
-      name: "Maria G.",
-      comment: "La ruleta es muy divertida. La animación está genial.",
-      timestamp: new Date(Date.now() - 1000 * 60 * 5),
-    },
-  ])
+  const [comments, setComments] = useState<Comment[]>([])
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => {
+    setHasMounted(true);
+    // Set initial comments with dynamic dates only on the client
+    setComments([
+        {
+          id: 1,
+          name: "Cinéfilo Anónimo",
+          comment: "¡Qué gran idea! Me ayudó a descubrir una joya de película que no conocía.",
+          timestamp: new Date(),
+        },
+        {
+          id: 2,
+          name: "Maria G.",
+          comment: "La ruleta es muy divertida. La animación está genial.",
+          timestamp: new Date(Date.now() - 1000 * 60 * 5),
+        },
+    ]);
+  }, [])
   
   const { register, handleSubmit, reset, formState: { errors } } = useForm<IFormInput>()
 
@@ -44,6 +66,10 @@ export function CommentSection() {
     }
     setComments([newComment, ...comments])
     reset()
+  }
+
+  if (!hasMounted) {
+    return null; // or a loading skeleton
   }
 
   return (
